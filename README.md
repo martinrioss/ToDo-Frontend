@@ -40,11 +40,14 @@ npm install
 
 ### 2. 🚀 Iniciar el Backend (API)
 El servidor de la API se ejecutará en http://localhost:3000.
+
 npm start
+
 Nota: El servidor debe permanecer encendido para que el frontend pueda acceder a los datos.
 
 ### 3. 🌐 Iniciar el Frontend (Live Server)
 Si no tienes Live Server instalado en Visual Studio Code:
+
 a) Instalar Live Server
 -Abre VS Code.
 
@@ -53,8 +56,11 @@ a) Instalar Live Server
 -Busca "Live Server" (creado por Ritwick Dey).
 
 -Haz clic en Instalar.
+
 b) Ejecutar el Frontend
+
 -En VS Code, navega hasta tu archivo index.html (o el archivo que contiene la estructura principal de tu frontend).
 
 -Haz clic derecho en el archivo index.html y selecciona "Open with Live Server".
+
 Esto abrirá la aplicación en tu navegador (generalmente en http://127.0.0.1:5500/index.html), y automáticamente comenzará a comunicarse con el backend que está corriendo en el puerto 3000.
